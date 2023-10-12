@@ -15,5 +15,5 @@ int addTwoNumbersOptional(int a, [int b = 0]) {
 }
 
 String greetPerson({required String name, String message = 'Hola,'}) {
-  return '$message Chalchiuhcuauhtli';
+  return '$message $name';
 }
