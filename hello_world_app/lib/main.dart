@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world_app/presentation/screens/counter/counter_screen.dart';
+import 'package:hello_world_app/presentation/screens/counter/counter_fuctions_screen.dart';
 
 void main() {
   // The init widget - like component or screen on React Native
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: Colors.blue
       ),
-      home: const CounterScreen()
+      home: const CounterFunctionsScreen()
     );
   }
 }
